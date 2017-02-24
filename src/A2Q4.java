@@ -58,10 +58,10 @@ public class A2Q4 {
         new Wall(kw, 4, 5, Direction.SOUTH);
 
 
-        while(true) {
-            
-            if (!jerrycan.frontIsClear()){
-                
+        while (true) {
+
+            if (!jerrycan.frontIsClear()) {
+
                 jerrycan.turnLeft();
                 jerrycan.move();
                 jerrycan.turnRight();
@@ -76,7 +76,7 @@ public class A2Q4 {
                 jerrycan.move();
             }
         }
-        
+
 
 
     }
