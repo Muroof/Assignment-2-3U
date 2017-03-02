@@ -57,7 +57,7 @@ public class A2Q4 {
         new Wall(kw, 4, 5, Direction.WEST);
         new Wall(kw, 4, 5, Direction.SOUTH);
 
-
+        // program to move around one sqaure of the castle and repeat
         while (true) {
 
             if (!jerrycan.frontIsClear()) {
