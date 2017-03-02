@@ -62,7 +62,7 @@ public class A2Q2 {
             jerrycan.move();
             jerrycan.turnLeft();
 
-
+            // If front is clear, move, if you can pick something up.... STOP
             while (jerrycan.frontIsClear()) {
                 jerrycan.move();
 
